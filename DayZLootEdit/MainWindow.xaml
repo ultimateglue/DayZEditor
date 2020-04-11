@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DayZLootEdit"
         mc:Ignorable="d"
-        Title="DayZ Loot Editor - v0.1" Height="800" Width="1400">
+        Title="DayZ Loot Editor - v1.0.0.1" Height="800" Width="1400" Icon="dayzlooteditor.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="119*"/>
@@ -27,7 +27,7 @@
             <Slider x:Name="PercSilder" Margin="-172,0,45,0" Maximum="400" TickFrequency="50" TickPlacement="BottomRight" SmallChange="1" Value="100" DockPanel.Dock="Top" ValueChanged="PercSilder_ValueChanged"/>
             <Button x:Name="PercBtn" Content="Set" HorizontalAlignment="Left" Margin="0,-42,0,0" VerticalAlignment="Top" Width="40" Height="40" DockPanel.Dock="Right" Click="PercBtn_Click"/>
         </DockPanel>
-        <Label Content="© icelane.net 2018" Grid.Column="2" HorizontalAlignment="Right" Margin="0,10,0,0" VerticalAlignment="Top" Width="116" Cursor=""/>
-
+        <Label Content="© icelane.net 2018" Grid.Column="2" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="114" Cursor=""/>
+        <Label Content="Modified by Rumbi (theglue21@gmail.com) 2020" Grid.Column="2" HorizontalAlignment="Right" Margin="0,29,0,0" VerticalAlignment="Top" Width="284" Cursor=""/>
     </Grid>
 </Window>

@@ -63,33 +63,57 @@ namespace DayZLootEdit
         public bool CountInCargo
         {
             get { return GetFlag(xtype, "count_in_cargo"); }
-            set { xtype.Element("flags")?.Attribute("count_in_cargo")?.SetValue(value.ToString()); }
+            set
+            {
+                int valueInt = value ? 1 : 0;
+                xtype.Element("flags")?.Attribute("count_in_cargo")?.SetValue(valueInt);
+            }
         }
         public bool CountInHoarder
         {
             get { return GetFlag(xtype, "count_in_hoarder"); }
-            set { xtype.Element("flags")?.Attribute("count_in_hoarder")?.SetValue(value.ToString()); }
+            set
+            {
+                int valueInt = value ? 1 : 0;
+                xtype.Element("flags")?.Attribute("count_in_hoarder")?.SetValue(valueInt);
+            }
         }
         public bool CountInMap
         {
             get { return GetFlag(xtype, "count_in_map"); }
-            set { xtype.Element("flags")?.Attribute("count_in_map")?.SetValue(value.ToString()); }
+            set
+            {
+                int valueInt = value ? 1 : 0;
+                xtype.Element("flags")?.Attribute("count_in_map")?.SetValue(valueInt);
+            }
         }
         public bool CountInPlayer
         {
             get { return GetFlag(xtype, "count_in_player"); }
-            set { xtype.Element("flags")?.Attribute("count_in_player")?.SetValue(value.ToString()); }
+            set
+            {
+                int valueInt = value ? 1 : 0;
+                xtype.Element("flags")?.Attribute("count_in_player")?.SetValue(valueInt);
+            }
         }
 
         public bool Crafted
         {
             get { return GetFlag(xtype, "crafted"); }
-            set { xtype.Element("flags")?.Attribute("crafted")?.SetValue(value.ToString()); }
+            set
+            {
+                int valueInt = value ? 1 : 0;
+                xtype.Element("flags")?.Attribute("crafted")?.SetValue(valueInt);
+            }
         }
         public bool Deloot
         {
             get { return GetFlag(xtype, "deloot"); }
-            set { xtype.Element("flags")?.Attribute("deloot")?.SetValue(value.ToString()); }
+            set
+            {
+                int valueInt = value ? 1 : 0;
+                xtype.Element("flags")?.Attribute("deloot")?.SetValue(valueInt);
+            }
         }
 
         public LootType(XElement xnode)

@@ -107,6 +107,9 @@ namespace DayZLootEdit
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
             LootTable.SaveFile();
+            string message = "DayZ Configuration Saved!";
+            string title = "Alert";
+            MessageBox.Show(message, title);
         }
     }
 }
