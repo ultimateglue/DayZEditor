@@ -11,12 +11,16 @@ It features the ability to increase/decrease the number of spawns of several obj
 ---
 
 
-**Version 1.0.0.1**
+**Version 1.0.0.2**
 #### **[DOWNLOAD](https://github.com/ultimateglue/DayZEditor/releases)**
 
 This tool requires at least **Windows 7** with **ServicePack 1**.
 
 ## Changes
+
+_2020/04/13_
+
++Changed backup filename to use datetime value
 
 _2020/04/12_
 
