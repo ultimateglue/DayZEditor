@@ -1,19 +1,30 @@
 
 
-# DayZ LootEdit
+# DayZ Loot Editor
 
 
-An editor to comfortably modify the loot table of the game "DayZ (Standalone)". It features the ability to increase/decrease the number of spawns of several objects via a percentage value.
+An editor to comfortably modify the loot table of the game "DayZ (Standalone)".
+
+It features the ability to increase/decrease the number of spawns of several objects via a percentage value.
 
 
 ---
 
 
-**Version 0.1.0 Alpha**
-#### **[DOWNLOAD](https://github.com/MrX13415/DayZLootEdit/releases)**
+**Version 1.0.0.1**
+#### **[DOWNLOAD](https://github.com/ultimateglue/DayZEditor/releases)**
 
 This tool requires at least **Windows 7** with **ServicePack 1**.
 
+## Changes
+
+_2020/04/12_
+
++Fixed flag checkbox to save as Boolean int instead of Boolean value
+
++Added message box when value is saved
+
++Custom icon
 
 
 ## Usage
@@ -33,7 +44,7 @@ Don't forget to click on the **Set** button to confirm your changes. Save the fi
 
 On the first time the file gets saved, a backup file containing the original content with the name `types.xml.original.xml` will be created.
 
-Note: Alle values can be changed, even though you shouldn't do so. For example, don't change the name of any object, it will break the game.
+Note: All values can be changed, even though you shouldn't do so. For example, don't change the name of any object, it will break the game.
 
 ![DayZ LootEdit](dayzlootedit.png)
 
