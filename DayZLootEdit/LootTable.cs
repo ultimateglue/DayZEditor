@@ -34,7 +34,8 @@ namespace DayZLootEdit
 
             if (file.Exists)
             {
-                FileInfo backup = new FileInfo(file.FullName + ".original.xml");
+                DateTime dt = DateTime.Now;
+                FileInfo backup = new FileInfo(file.FullName + "." + String.Format("{0:yyyyMMdd_HHmmss}", dt) + ".xml");
 
                 if (!backup.Exists)
                 {
